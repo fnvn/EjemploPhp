@@ -12,6 +12,15 @@ and open the template in the editor.
     <head>
         <meta charset="UTF-8">
         <title>Tilin Tilin</title>
+        <style>
+            label{
+                color: green;
+                font-family: fantasy;
+            }  
+           
+            
+            
+        </style>
     </head>
     <body>
         <h1 align="center">Ingreso de Productos </h1>
@@ -25,7 +34,7 @@ and open the template in the editor.
             <input type="text" name="codigo"/> <br>
            
 
-                <label> Marca: </label>
+                <label style="color:red;"> Marca: </label>
                 <input type="text" name="marca"/>  <br>
                     <label> Modelo: </label>
                     <input type="text" name="modelo"/>  <br>
