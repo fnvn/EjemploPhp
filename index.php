@@ -12,7 +12,8 @@ and open the template in the editor.
     <head>
         <meta charset="UTF-8">
         <title>Tilin Tilin</title>
-        <style>
+        <link type="text/css" href="css/style.css" rel="stylesheet"> 
+<!--        <style>
             label{
                 color: green;
                 font-family: fantasy;
@@ -20,7 +21,7 @@ and open the template in the editor.
            
             
             
-        </style>
+        </style>-->
     </head>
     <body>
         <h1 align="center">Ingreso de Productos </h1>
@@ -39,10 +40,15 @@ and open the template in the editor.
                     <label> Modelo: </label>
                     <input type="text" name="modelo"/>  <br>
 
-                        <label> Precio: </label>
-                        <input type="number" name="precio"/>  <br>
+                        <label id="vitocoman"> Precio: </label>
+                        <input class="clase711" type="number" name="precio"/>  <br>
                       
                             <input type="submit" value="registrar"/> 
+                            
+                            <br>
+                            <br>
+                            
+                            <a href="#"> Ir al vacio de tu existencia 
 
 
                                 </form>
