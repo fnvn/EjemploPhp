@@ -1,0 +1,30 @@
+/* regla del tipo slector y su nombre debe ser igual al de la etiqueta html*/
+label{
+    color: purple;
+}
+/* regla del tipo identificador que el nombre inicie con# y la etiqueta html tenga como atributo id igual al nombre del */
+
+#vitocoman {
+  color: blue;
+
+}
+
+.clase711 {
+    color: aqua;
+}
+
+a{
+     color: black;
+   background-color:yellow ;
+   
+}
+
+a:hover{
+   color: yellow;
+   background-color: black; 
+}
+
+a:active{
+   color: pink;
+   background-color: cyan; 
+}
